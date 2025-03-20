@@ -1,0 +1,95 @@
+/* Centering and Layout */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 20px;
+}
+
+.content-container {
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slightly larger shadow for depth */
+    text-align: center; /* Center text */
+}
+
+/* Title Styling */
+.main-title {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Reviewer Title Styling */
+.reviewer-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Questions List Styling */
+.questions-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.question-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #e9ecef;
+}
+
+/* Options List Styling */
+.options-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.options-list li {
+    margin: 5px 0;
+}
+
+/* Toggle Answer Button */
+.toggle-answer {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-answer:hover {
+    background-color: #007bff;
+}
+
+/* Correct Answer Styling */
+.correct-answer {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.selected-answer {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    cursor: pointer;
+}
+
+.wrong-answer {
+    color: red;
+    font-weight: bold;
+}
